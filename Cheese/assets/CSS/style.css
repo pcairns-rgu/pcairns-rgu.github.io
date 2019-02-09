@@ -6,3 +6,46 @@ body{
     margin-right: auto;
 }
 
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+nav>ul>li{
+    float: left;
+}
+
+nav>ul>li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    color: orange;
+
+}
+
+#cheeselogo{
+    width: 150px;
+}
+
+#brie{
+    width: 250px;
+    height: 200px;
+}
+
+#gouda{
+    width: 250px;
+    height: 200px;
+}
+
+#mascarpone{
+    width: 250px;
+    height: 200px;
+}
