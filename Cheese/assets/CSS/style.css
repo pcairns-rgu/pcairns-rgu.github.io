@@ -11,6 +11,7 @@ nav>ul {
     margin: 0;
     padding: 0;
     overflow:hidden;
+    float: bottom;
 }
 
 nav>ul>li{
@@ -23,6 +24,7 @@ nav>ul>li a{
     text-align: center;
     padding: 10px 30px;
     text-decoration: none;
+    border: lightslategray solid 1px;
 
 }
 
@@ -31,9 +33,13 @@ li a:hover{
 
 }
 
+/* IMAGE SIZING CSS */
 #cheeselogo{
     width: 150px;
+    float: left;
+    padding-right: 10px;
 }
+
 
 #brie{
     width: 250px;
@@ -48,4 +54,26 @@ li a:hover{
 #mascarpone{
     width: 250px;
     height: 200px;
+}
+
+#cheese_board{
+
+    float: left;
+    padding-right: 10px;
+}
+
+/* TEXT STYLING */
+
+h1, h2, h3{
+    font-family: "Trebuchet MS";
+}
+
+p, li{
+    font-family: Arial;
+}
+
+
+#page_title a{
+ text-decoration: none;
+
 }
