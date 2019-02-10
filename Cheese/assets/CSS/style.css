@@ -9,13 +9,15 @@ body{
 nav>ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: auto;
     overflow:hidden;
-    float: bottom;
+
 }
 
 nav>ul>li{
     float: left;
+
+
 }
 
 nav>ul>li a{
@@ -35,7 +37,8 @@ li a:hover{
 
 /* IMAGE SIZING CSS */
 #cheeselogo{
-    width: 150px;
+    width: 100px;
+    height: 100px;
     float: left;
     padding-right: 10px;
 }
@@ -59,7 +62,7 @@ li a:hover{
 #cheese_board{
 
     float: left;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 /* TEXT STYLING */
@@ -74,6 +77,25 @@ p, li{
 
 
 #page_title a{
+
  text-decoration: none;
 
 }
+
+#page_title{
+
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size:40px;
+
+
+}
+
+footer>p{
+    width: 200px;
+
+
+
+}
+
