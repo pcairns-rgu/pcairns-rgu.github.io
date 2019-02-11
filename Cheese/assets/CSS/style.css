@@ -1,0 +1,102 @@
+@import"templatecolours.css";
+
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: auto;
+    overflow:hidden;
+
+}
+
+nav>ul>li{
+    float: left;
+
+
+}
+
+nav>ul>li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: lightslategray solid 1px;
+
+}
+
+li a:hover{
+    color: orange;
+
+}
+
+/* IMAGE SIZING CSS */
+#cheeselogo{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
+
+#brie{
+    width: 250px;
+    height: 200px;
+    
+}
+
+#gouda{
+    width: 250px;
+    height: 200px;
+}
+
+#mascarpone{
+    width: 250px;
+    height: 200px;
+}
+
+#cheese_board{
+
+    float: left;
+    padding-right: 15px;
+}
+
+/* TEXT STYLING */
+
+h1, h2, h3{
+    font-family: "Trebuchet MS";
+}
+
+p, li{
+    font-family: Arial;
+}
+
+
+#page_title a{
+
+ text-decoration: none;
+
+}
+
+#page_title{
+
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size:40px;
+
+
+}
+
+footer>p{
+    width: 200px;
+
+
+
+}
+
